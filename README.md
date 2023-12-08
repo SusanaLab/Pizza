@@ -10,23 +10,23 @@
 
 - **Crear Órdenes:** Los meseros pueden generar órdenes detalladas, seleccionando pizzas y especificaciones del cliente.
 - **Enviar a Cocina:** Las órdenes se envían automáticamente a la cocina para una preparación inmediata.
-- **usuario: mesera@pizza.com
-- **contraseña: mesera
+- usuario: mesera@pizza.com
+- contraseña: mesera
 
 ### Personal de Cocina
 
 - **Recibir Órdenes en Tiempo Real:** El personal de cocina visualiza las órdenes en tiempo real, con detalles específicos de cada pizza.
 - **Actualizar Estado de Órdenes:** Al completar una pizza, el estado se actualiza automáticamente, notificando al mesero.
-- **usuario: cocina@pizza.com
-- **contraseña: cocina
+- usuario: cocina@pizza.com
+- contraseña: cocina
 
 ### Administradores
 
 - **Ver Totales Diarios:** Información detallada sobre el total de pizzas vendidas y el monto recaudado cada día.
 - **Recibir Reportes del Día:** Informes diarios proporcionados por meseros, incluyendo el monto total de ventas.
 - **Gestión de Usuarios:** Capacidad para administrar cuentas de usuario.
-- **usuario: administrador@pizza.com
-- **contraseña: administrador
+- usuario: administrador@pizza.com
+- contraseña: administrador
 
 ## Ventajas
 
