@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Pizza - Gestión Eficiente para Restaurantes de Pizzas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+"Pizza Manager" es una aplicación diseñada para facilitar la gestión operativa en restaurantes de pizzas. Con un enfoque en la eficiencia y la toma de decisiones informadas, la aplicación brinda herramientas específicas para meseros, personal de cocina y administradores.
 
-In the project directory, you can run:
+## Funcionalidades Clave
 
-### `npm start`
+### Meseros
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Crear Órdenes:** Los meseros pueden generar órdenes detalladas, seleccionando pizzas y especificaciones del cliente.
+- **Enviar a Cocina:** Las órdenes se envían automáticamente a la cocina para una preparación inmediata.
+usuario: mesera@pizza.com
+contraseña: mesera
+ 
+### Personal de Cocina
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Recibir Órdenes en Tiempo Real:** El personal de cocina visualiza las órdenes en tiempo real, con detalles específicos de cada pizza.
+- **Actualizar Estado de Órdenes:** Al completar una pizza, el estado se actualiza automáticamente.
+usuario: cocina@pizza.com
+contraseña: cocina
 
-### `npm test`
+### Administradores
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Ver Totales Diarios:** Información detallada sobre el total de pizzas vendidas y el monto recaudado cada día.
+usuario: administrador@pizza.com
+contraseña: administrador
 
-### `npm run build`
+## Ventajas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Eficiencia Operativa:** Reducción de tiempos de espera y mejor coordinación entre el personal.
+- **Seguimiento en Tiempo Real:** Estadísticas actualizadas para una toma de decisiones informada.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instrucciones de Instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clona el repositorio a tu máquina local.
+   ```
+   git clone https://github.com/tu-usuario/Pizza.git
+   ```
 
-### `npm run eject`
+2. Instala las dependencias.
+   ```
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Inicia la aplicación.
+   ```
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribuciones
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+¡Contribuciones son bienvenidas! Si encuentras algún problema o tienes ideas para mejoras, por favor crea un *issue* o envía un *pull request*.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Licencia
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
