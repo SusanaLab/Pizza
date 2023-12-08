@@ -12,8 +12,8 @@ import Ventas from './pages/Ventas/Ventas'
 const App = () => {
   return (
     <div className="App">
-  <Routes>
-        <Route path="/" element={<Home/>} />
+  <Routes >
+        <Route path="/home" element={<Home/>} />
         <Route path="/menu" element={<Menu/>} />
         <Route path="/mesera" element={<Mesero/>} />
         <Route path="/error" element={<Error/>} />
