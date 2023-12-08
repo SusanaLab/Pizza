@@ -1,0 +1,146 @@
+/* Carrousel.css */
+
+.carrousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 40%;
+    background: rgb(0, 0, 0);
+padding: 20px;
+}
+.pizzaImagen{
+  display: flex;
+  flex-direction: row;
+}
+.arrow{
+  display: flex;
+  flex-direction: row;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pizza-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-left: 120px;
+}
+.precio {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #e73131;
+  border-radius:50px;
+  font-size: 25px;
+  margin-top: 120px;
+  margin-left: -40px;
+}
+
+.carrousel-container h1 {
+  font-size: 24px;
+  color: var(--texto-b, #FFF);
+font-family: Outfit;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.carrousel-container p {
+    color: var(--texto-b, #FFF);
+font-family: Outfit;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  font-size: 16px;
+margin-top: 0%;
+}
+
+.arrow-button {
+  font-size: 24px;
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  width: 30px;
+  height: 30px;
+}
+
+.arrow-button:hover {
+      color: rgb(255, 111, 111);
+  background-color: #222222;
+}
+@media (min-width: 800px) and (max-width: 1308px) {
+  .pizza-image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-left: 110px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+}
+@media (max-width: 800px) {
+  .carrousel-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+padding:30px;
+width: auto;
+  }
+.pizza-image{
+  margin-left:x;
+}
+  .landing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 5%;
+    background: #F55;
+    padding-top: 8%;
+    padding-bottom: 12%;
+    padding-right: 0px;
+}
+}
+@media (max-width: 520px) {
+    .carrousel-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0%;
+  }
+  .pizza-image{
+    margin-left:60px;
+  }
+  .carrousel-container h1{
+    font-size:20px;
+  }
+}

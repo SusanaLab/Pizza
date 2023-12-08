@@ -1,20 +1,20 @@
 :root {
-    --background-medium-color: #FFF0BD;
-    --orange-medium-color:  #F49423;
-    --text-color-gray: #000000;
-    --background-dark-color: #2D2C2C;
-    --white-color: #ffffff;
-  }
-  
-  html,
-  body {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1,
-  h2 {
-    color: var(--blue-medium-color);
-  }
+  --background-medium-color: #FFF0BD;
+  --orange-medium-color: #F49423;
+  --text-color-gray: #000000;
+  --background-dark-color: #2D2C2C;
+  --white-color: #ffffff;
+}
+
+html,
+body {
+
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: var(--blue-medium-color);
+}

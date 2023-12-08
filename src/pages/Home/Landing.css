@@ -1,0 +1,227 @@
+.landing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 50%;
+    padding: 5%;
+    background: #F55;
+    padding-top: 8%;
+    padding-bottom: 12%;
+    padding-right: 90px;
+}
+.landing-page{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+
+ 
+}
+.landing-section h1 {
+    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0%;
+    color: var(--texto-b, #FFF);
+    font-size: 500%;
+}
+
+.landing-section p {
+    color: var(--texto-b, #FFF);
+    margin-right: 20px;
+    margin: 0%;
+    font-size: 30px;
+}
+
+.order-button {
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #000;
+    color: var(--texto-b, #FFF);
+    font-family: Outfit;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-width: 0cap;
+}
+
+.social-image {
+    width: 100px;
+    margin-top: 40px;
+}
+
+.landing-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.landing-description h2 {
+    margin: 20px;
+    font-size: 35px;
+
+}
+
+.dish-image {
+    width: 30%;
+    margin-right: -150px;
+    z-index: 2;
+}
+
+.dish-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+margin-bottom: 20px;
+}
+
+.dish-container p {
+    background: rgb(31, 31, 31);
+    color: #FFF;
+    padding: 120px;
+    padding-left: 200px;
+    font-size: 25px;
+    z-index: 1;
+}
+
+
+.landing-horario{
+   display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 50%;
+    padding: 5%;
+    padding-top: 0%;
+    padding-bottom: 12%;
+    padding-right: 90px;
+
+}
+.landing-horario h2{
+color: var(--texto-b, #000000);
+text-align: center;
+font-family: Outfit;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.landing-horario h3{
+color: var(--texto-b, #000000);
+text-align: start;
+font-family: Outfit;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0%;
+padding-right: 0%;
+padding-left: 40px;
+}
+.landing-horario p{
+color: var(--texto-b, #000000);
+text-align: start;
+font-family: Outfit;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-right: 0%;
+padding-left: 40px;
+}
+
+
+.landing-map {
+   display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 50%;
+    padding: 5%;
+    padding-top: 8%;
+    padding-bottom: 12%;
+    padding-right: 90px;
+}
+
+.horario{
+    display: flex;
+margin: 10%;
+}
+
+
+@media (min-width: 650px) and (max-width: 850px) {
+.pizza-image{
+    margin-left:80px;
+}
+.landing-section{
+    padding-right:10px;
+}
+}
+
+
+@media (max-width: 700px) {
+.landing-page{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+       align-items: flex-start;
+    align-content: flex-start;
+       padding: 0%;
+    background: #F55;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0px;
+}
+
+
+.carrousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0px;
+}
+.landing-section {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+}
+@media (max-width: 520px) {
+.landing-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.landing-page{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+       align-items: flex-start;
+    align-content: flex-start;
+       padding: 0%;
+    background: #F55;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0px;
+}
+}

@@ -1,80 +1,237 @@
-.orden{
+.orden {
     display: flex;
     flex-direction: row;
 }
-.btnPizza{
-    width: 115.88px;
-    height: 89.99px;
-    background: #F47B23;
-    border: 3px solid #F47B23;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 14px;
-    color: #FFFBFB;
-    margin: 10px;
-
+.btnImage {
+    width: 50px;
+    height: 50px;
 }
-.btnImage{
-    width: 41.22px;
-    height: 39.21px; 
+.flavorDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#F5F5F5;
+padding: 5px;
 }
-.titulo{
-    margin: 0px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-size: 64px;
-    line-height: 85px;
-    background-color: var( --background-dark-color);
-    color: #FFFFFF;
+.orden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     background-color: #F5F5F5; 
+padding: 20px;
 }
-.flavor{
+.flavor {
     display: flex;
     flex-wrap: wrap;
-   align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
     border-color: black;
-    background-color: rgb(255, 255, 255);
-   }
+    background-color: #F5F5F5; 
+}
+.menu-flavor {
+ display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    border-color: black;
+    background-color: #F5F5F5; 
+}
+.btnPizza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    width: 120px;
+    border-radius: 10px;
+    height: 120px;
+    background-color: #FFFFFF;
+    border-width: 0px;
+    margin: 10px;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+}
+h3 {
+    margin: 3%;
+    color: #000;
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-family: 'Outfit', sans-serif;
+}
+h4 {
+    margin: 3%;
+    color: #F55;
+}
 
-.ticket{ 
-    border-color: black;
-    background-color: rgb(255, 255, 255);
+.addButton{
+  color: var(--texto-b, #FFF);
+  font-size: medium;
+  font-weight: 400;
+  border-radius: 20px;
+  background: var(--Enviar, #6FDA7A);
+  padding: 5px 40px 5px 40px;
+  border-width: 0ch;
+  margin: 8px;
+
+}
+.menuFlavor{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 4px;
+
 }
-.textEnter{
-border-color: #F47B23;
-width: 300px;
-margin: 10px;
+.pizza{
+    font-size:xx-large;
+    margin: 0%;
 }
-.tableTicket{
-    display: flex;
-    flex-direction: column;
-    border-color: #F47B23;
-    margin: 10px;
+
+
+#contador {
+  width: 10px !important;
+  height: 10px !important;
 }
-.infoTicket{
+
+.orden {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+}
+
+.orden h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #575757;
+}
+
+.orden label {
+  display: block;
+  margin: 10px 0;
+}
+
+.orden input,
+.orden textarea,
+.orden select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.orden ul {
+  list-style: none;
+  padding: 0;
+}
+
+.orden li {
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+
+.orden button {
+  background-color:  #F55;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.orden button:hover {
+  background-color: #45a049;
+}
+
+li div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+li p{
+margin: 0%;
+    margin-right: 80px;
+    margin-top: 4px;
+    color: #575757;
+font-size: medium;
+}
+li button{
+  width: 90px;
+  height: 30px;
+  margin: 0%;
+  padding: 0%;
+
+
+}
+input #contador{
+  margin:0%
+}
+
+.flavorDiv {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    background-color:#F5F5F5;
+padding: 5px;
+}
 
+
+@media (max-width: 600px) {
+  .flavorDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 5px;
+  }
+
+  .orden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      background-color: #F5F5F5; 
+    width: 300px;
+    height: auto;
+  }
+
+  .menu-flavor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-color: black;
+    background-color: #F5F5F5;
+  
+  }
+.orden input,
+.orden textarea,
+.orden select {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-.sendKitchen
-{display: flex;
-flex-direction: column;
-}
-.flavorDiv{
-  background-color: rgb(255, 255, 255);
-}
-.btnSend{
-font-style: normal;
-font-weight: 100;
-font-size: 20px;
-line-height: 25px;
-background: #2D2C2C;
-border-radius: 9px;
-border: 0pt;
-color: #ffffff;
+ 
 }

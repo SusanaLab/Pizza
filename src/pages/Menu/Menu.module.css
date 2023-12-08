@@ -1,0 +1,10 @@
+.flavor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+h1{
+    font-size: 40px;
+      margin: 60px;
+}

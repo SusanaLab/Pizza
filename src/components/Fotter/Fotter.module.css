@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
      align-items:center;
+     padding: 10px;
 }
 .pic{ 
     display: flex;
@@ -15,5 +16,4 @@
     height: 30px;
     margin: 20px;
     display: flex;
-  
 }
