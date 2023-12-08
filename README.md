@@ -1,5 +1,4 @@
-```markdown
-# Pizza - Gestión Eficiente para Restaurantes de Pizzas
+# Pizza Manager - Gestión Eficiente para Restaurantes de Pizzas
 
 ## Descripción
 
@@ -11,32 +10,29 @@
 
 - **Crear Órdenes:** Los meseros pueden generar órdenes detalladas, seleccionando pizzas y especificaciones del cliente.
 - **Enviar a Cocina:** Las órdenes se envían automáticamente a la cocina para una preparación inmediata.
-
-  **Credenciales:**
-  - Usuario: mesera@pizza.com
-  - Contraseña: mesera
+- ***usuario: mesera@pizza.com
+- ***contraseña: mesera
 
 ### Personal de Cocina
 
 - **Recibir Órdenes en Tiempo Real:** El personal de cocina visualiza las órdenes en tiempo real, con detalles específicos de cada pizza.
-- **Actualizar Estado de Órdenes:** Al completar una pizza, el estado se actualiza automáticamente.
-
-  **Credenciales:**
-  - Usuario: cocina@pizza.com
-  - Contraseña: cocina
+- **Actualizar Estado de Órdenes:** Al completar una pizza, el estado se actualiza automáticamente, notificando al mesero.
+- ***usuario: cocina@pizza.com
+- ***contraseña: cocina
 
 ### Administradores
 
 - **Ver Totales Diarios:** Información detallada sobre el total de pizzas vendidas y el monto recaudado cada día.
-
-  **Credenciales:**
-  - Usuario: administrador@pizza.com
-  - Contraseña: administrador
+- **Recibir Reportes del Día:** Informes diarios proporcionados por meseros, incluyendo el monto total de ventas.
+- **Gestión de Usuarios:** Capacidad para administrar cuentas de usuario.
+- ***usuario: administrador@pizza.com
+- ***contraseña: administrador
 
 ## Ventajas
 
 - **Eficiencia Operativa:** Reducción de tiempos de espera y mejor coordinación entre el personal.
 - **Seguimiento en Tiempo Real:** Estadísticas actualizadas para una toma de decisiones informada.
+- **Administración Sencilla:** Los administradores tienen control sobre usuarios y reciben informes diarios.
 
 ## Instrucciones de Instalación
 
@@ -62,4 +58,3 @@
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
-```
