@@ -1,3 +1,4 @@
+```markdown
 # Pizza - Gestión Eficiente para Restaurantes de Pizzas
 
 ## Descripción
@@ -10,21 +11,27 @@
 
 - **Crear Órdenes:** Los meseros pueden generar órdenes detalladas, seleccionando pizzas y especificaciones del cliente.
 - **Enviar a Cocina:** Las órdenes se envían automáticamente a la cocina para una preparación inmediata.
-usuario: mesera@pizza.com
-contraseña: mesera
- 
+
+  **Credenciales:**
+  - Usuario: mesera@pizza.com
+  - Contraseña: mesera
+
 ### Personal de Cocina
 
 - **Recibir Órdenes en Tiempo Real:** El personal de cocina visualiza las órdenes en tiempo real, con detalles específicos de cada pizza.
 - **Actualizar Estado de Órdenes:** Al completar una pizza, el estado se actualiza automáticamente.
-usuario: cocina@pizza.com
-contraseña: cocina
+
+  **Credenciales:**
+  - Usuario: cocina@pizza.com
+  - Contraseña: cocina
 
 ### Administradores
 
 - **Ver Totales Diarios:** Información detallada sobre el total de pizzas vendidas y el monto recaudado cada día.
-usuario: administrador@pizza.com
-contraseña: administrador
+
+  **Credenciales:**
+  - Usuario: administrador@pizza.com
+  - Contraseña: administrador
 
 ## Ventajas
 
@@ -55,3 +62,4 @@ contraseña: administrador
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
+```
