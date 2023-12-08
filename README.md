@@ -1,8 +1,8 @@
-# Pizza Manager - Gestión Eficiente para Restaurantes de Pizzas
+# Pizza App - Gestión Eficiente para Restaurantes de Pizzas
 
 ## Descripción
 
-"Pizza Manager" es una aplicación diseñada para facilitar la gestión operativa en restaurantes de pizzas. Con un enfoque en la eficiencia y la toma de decisiones informadas, la aplicación brinda herramientas específicas para meseros, personal de cocina y administradores.
+"Pizza App" es una aplicación diseñada para facilitar la gestión operativa en restaurantes de pizzas. Con un enfoque en la eficiencia y la toma de decisiones informadas, la aplicación brinda herramientas específicas para meseros, personal de cocina y administradores.
 
 ## Funcionalidades Clave
 
