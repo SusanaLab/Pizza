@@ -38,7 +38,7 @@
 
 1. Clona el repositorio a tu máquina local.
    ```
-   git clone https://github.com/tu-usuario/Pizza.git
+   git clone https://github.com/SusanaLab/Pizza.git
    ```
 
 2. Instala las dependencias.
